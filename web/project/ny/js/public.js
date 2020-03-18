@@ -54,7 +54,7 @@ function loadOrderInList(form,orderType,orderFid,fidIsNull,orderdown,orderup){
 }
 
 //在列表记录中双击
-function doDblClick(fid,operation){
+/*function doDblClick(fid,operation){
 	if(operation==false)
 	 return;
 	var dblClick = "";
@@ -64,9 +64,9 @@ function doDblClick(fid,operation){
 	myUrl = addParam(myUrl,'method=toView');	
 	mForm.action=addParam(myUrl,'fid='+fid);	
 	mForm.submit();  
-}
+}*/
 
-//EOS在列表记录中双击的实现
+/*//EOS在列表记录中双击的实现
 function eosDoDblClick(url,target){
 
 	var frm = document.forms[0];
@@ -76,7 +76,7 @@ function eosDoDblClick(url,target){
     frm.action=url;
     frm.submit(); 
 	
-}
+}*/
 
 function toUrl(myUrl,isCheck){
 	//如果是click查看按钮

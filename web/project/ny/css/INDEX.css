@@ -1,7 +1,6 @@
 .body_left {
 	background-IMAGE: url(../IMAGE/space_bodybg.gif);
 }
-
 body {
 	margin-left: 0px;
 	margin-top: 0px;
@@ -561,7 +560,7 @@ a:hover {
 .rj_button {
 	font-size: 12px;
 	color: #000000;
-	background-IMAGE: url(../IMAGE/rj_bg1.gif);
+	background-IMAGE: url(../image/rj_bg1.gif);
 	line-height: 20px;
 	height: 22px;
 	width: 50px;
